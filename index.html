@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Bíblico - Palavra de Vida</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="quiz-container">
+        <div class="quiz-header">
+            <h1>Quiz Bíblico</h1>
+            <p>Teste seus conhecimentos na Palavra</p>
+        </div>
+
+        <div id="score-board">
+            <span class="score-box">Acertos: <strong id="correct-score">0</strong></span>
+            <span class="score-box">Erros: <strong id="wrong-score">0</strong></span>
+        </div>
+
+        <div id="question-container">
+            <h2 id="question">Preparando as escrituras...</h2>
+            <div id="answer-buttons" class="btn-grid">
+                </div>
+        </div>
+
+        <div class="controls">
+            <button id="next-btn" class="next-btn hide">Próxima Pergunta</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
