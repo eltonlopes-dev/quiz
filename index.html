@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Bíblico - Palavra de Vida</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Lora:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -24,12 +22,19 @@
 
         <div id="question-container">
             <h2 id="question">Preparando as escrituras...</h2>
-            <div id="answer-buttons" class="btn-grid">
-                </div>
+            <div id="answer-buttons" class="btn-grid"></div>
         </div>
 
         <div class="controls">
             <button id="next-btn" class="next-btn hide">Próxima Pergunta</button>
+        </div>
+    </div>
+
+    <div id="result-modal" class="modal hide">
+        <div class="modal-content">
+            <h2 id="result-message">Resultado</h2>
+            <p id="result-stats"></p>
+            <button onclick="startQuiz()" class="next-btn">Tentar Novamente</button>
         </div>
     </div>
 
